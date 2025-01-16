@@ -26,19 +26,19 @@ A chatbot powered by AI to provide empathetic conversations, mood tracking, and 
 ---
 
 ## 📂 Project Structure
-├── frontend/ 
-│   ├── src/
-│   │   ├── components/ # Reusable React components
-│   │   ├── pages/ # Pages like Chatbot, Mood Tracker
-│   │   ├── App.js # Main app file
-│   │   ├── index.js # Entry point
-│   └── public/ 
-├── backend/ 
-│   ├── app.py # Main backend server
-│   ├── routes/ # API routes
-│   ├── models/ # Database models
-│   ├── utils/ # Utility functions
-│   └── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── .gitignore # Ignored files
+frontend/
+  src/
+    components/ # Reusable React components
+    pages/ # Pages like Chatbot, Mood Tracker
+    App.js # Main app file
+    index.js # Entry point
+  public/
+backend/
+  app.py # Main backend server
+  routes/ # API routes
+  models/ # Database models
+  utils/ # Utility functions
+  requirements.txt # Python dependencies
+README.md # Project documentation
+.gitignore # Ignored files
 
