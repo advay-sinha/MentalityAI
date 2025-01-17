@@ -34,11 +34,10 @@ frontend/
     index.js # Entry point
   public/
 backend/
-  app.py # Main backend server
-  routes/ # API routes
-  models/ # Database models
-  utils/ # Utility functions
-  requirements.txt # Python dependencies
-README.md # Project documentation
-.gitignore # Ignored files
+├── app.py                # Main backend server
+├── utils/
+│   ├── azure_speech.py   # Helper for Azure Speech Service
+│   ├── azure_personalizer.py  # Helper for Azure Personalizer
+│   ├── azure_qna.py      # Helper for Azure Language Question Answering
+├── requirements.txt      # Python dependencies
 
