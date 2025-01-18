@@ -2,12 +2,14 @@
 
 from django.db import models
 
-class UserProfile(models.Model):
+class MoodLog(models.Model):
     name = models.CharField(max_length=100)
     age = models.IntegerField()
-    gender = models.CharField(max_length=10)
-    nationality = models.CharField(max_length=100)
-    created_at = models.DateTimeField(auto_now_add=True)
+    mood = models.CharField(max_length=100)
+    notes = models.TextField(blank=True, null=True)
+    gender = models.CharField(max_length=10, blank=True, null=True)  # New Field
+    nationality = models.CharField(max_length=100, blank=True, null=True)  # New Field
+    timestamp = models.DateTimeField(auto_now_add=True)
 
     def _str_(self):
-        return f"{self.name} ({self.gender}, {self.age})"
+        return f"{self.name} - {self.mood} on {self.timestamp.strftime('%Y-%m-%d %H:%M')}"
