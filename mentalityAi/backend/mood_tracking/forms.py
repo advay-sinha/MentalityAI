@@ -3,7 +3,7 @@
 from django import forms
 from .models import UserProfile
 
-class UserProfileForm(forms.ModelForm):
+class MoodLogForm(forms.ModelForm):
     class Meta:
         model = UserProfile
         fields = ['name', 'age', 'gender', 'nationality']
