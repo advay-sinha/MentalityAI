@@ -1,6 +1,8 @@
+# mood_tracking/urls.py
+
 from django.urls import path
-from .views import MoodLogListCreateView
+from .views import submit_user_data
 
 urlpatterns = [
-    path('moodlogs/', MoodLogListCreateView.as_view(), name='mood-log-list-create'),  # API route for mood logs
+    path('submit-data/', submit_user_data, name='submit-data'),
 ]
