@@ -1,6 +1,6 @@
-# 🧠 Intelligent Mental Health Chatbot
+# 🧠 Intelligent Mental Health Chatbot : MentalityAI
 
-A chatbot powered by AI to provide empathetic conversations, mood tracking, and mental health resources. This project was developed during a 3-day hackathon to showcase how technology can promote mental well-being.
+A chatbot powered by AI to provide empathetic conversations, mood tracking, and mental health resources. This project was developed to showcase how technology can promote mental well-being.
 
 ---
 
