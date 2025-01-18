@@ -26,7 +26,7 @@ A chatbot powered by AI to provide empathetic conversations, mood tracking, and 
 ---
 
 ## 📂 Project Structure
-mental_health_app/
+mentalityAi/
 ├── backend/                     # Django Backend
 │   ├── manage.py
 │   ├── mental_health_app/       # Django project settings
